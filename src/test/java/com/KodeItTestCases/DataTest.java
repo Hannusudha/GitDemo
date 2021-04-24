@@ -29,6 +29,7 @@ public class DataTest {
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
 		driver.get("https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1");
+		System.out.println("adding some data after adding develop branch");
 
 		Thread.sleep(3000);
 
