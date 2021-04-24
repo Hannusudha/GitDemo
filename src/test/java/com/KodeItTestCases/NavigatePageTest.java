@@ -60,6 +60,8 @@ public class NavigatePageTest {
 
 		mainpage p = new mainpage(driver);
 		p.clickOnLogin().click();
+		
+		System.out.println("adding comment from Git itself")
 
 		Assert.assertEquals(driver.getTitle(), "Home | Let's Kode It");
 		System.out.println("Task is successfully completed......!!!!!");
