@@ -1,0 +1,34 @@
+
+<suite name="Suite" parallel="tests">
+	<test name="Test">
+
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.KodeItTestCases.NavigatePageTest">
+				<methods>
+					<include name="verifyTextPrac" />
+
+				</methods>
+			</class>
+
+		</classes>
+
+
+	</test> <!-- Test -->
+	<test name="Test2">
+
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.KodeItTestCases.NavigatePageTest">
+				<methods>
+					<include name="verifyTextPrac" />
+
+				</methods>
+			</class>
+
+		</classes>
+
+
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome1"/>
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox1"/>
+    <classes>
+      <class name="com.KodeItTestCases.NavigatePageTest">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="browserOpen"/>
+          <include name="verifyTextPrac"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.KodeItTestCases.NavigatePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browser" value="chrome1"/>
+    <classes>
+      <class name="com.KodeItTestCases.NavigatePageTest">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="browserOpen"/>
+          <include name="verifyTextPrac"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.KodeItTestCases.NavigatePageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
